@@ -32,7 +32,7 @@ public class JpaConfiguration {
 	LocalContainerEntityManagerFactoryBean emf =
 	new LocalContainerEntityManagerFactoryBean();
 	emf.setDataSource(dataSource());
-	emf.setPackagesToScan("com.apress.springrecipes.course");
+	emf.setPackagesToScan("webstore.domain");
 	emf.setJpaVendorAdapter(jpaVendorAdapter());
 	return emf;
 	}

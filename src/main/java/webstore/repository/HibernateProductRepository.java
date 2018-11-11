@@ -13,7 +13,7 @@ public class HibernateProductRepository implements ProductRepository {
 	private EntityManagerFactory emf;
 	@Override
 	public List<Product> getllProducts() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
